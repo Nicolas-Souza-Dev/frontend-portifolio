@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFC;
+    --cinza: #BEB7A4;
+    --laranja: #FF3F00;
+    --laranja-claro: #FF7F11;
+}
+
+#header {
+    width: 100vw;
+    height: 3.7em;
+    position: fixed;
+    background-color: var(--preto);
+}
+
+#header-nav {
+    color: #FFFFFC;
+    padding: 0.9em 2em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#header a {
+    color: var(--branco);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-image: url(./assets/foto-sem-fundo-2.png);
+    background-color: var(--laranja-claro);
+    background-size: 53%;
+    background-position: 820px;
+    background-repeat: no-repeat;
+   
+}
+
+#texto-home {
+    width: 40vw;
+}
+
+#titulo-home {
+    font-size: 50px;
+}
+
+.section-50vh {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    
+}
+
+#section-sobre h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre1e2 {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+
+}
+
+#sobre1 {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+#sobre2 {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+#section-habilidades h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades-lista {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+
+}
+
+#lista1 {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+#lista2 {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+#lista3 {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+#section-projetos h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#projetos-lista {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+  
+}
+
+#projetos-lista1 li{
+    text-align: justify;
+    margin: 2em 2em;
+    
+}
+
+#projetos-lista2 li{
+    text-align: justify;
+    margin: 2em 2em;
+   
+}
+
+#projetos-lista3 li{
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+button {
+    font-size: 20px;
+    display: flex;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: var(--laranja-claro);
+   
+}
+
+#projeto1 {
+    display: none;
+}
+
+#div-conquistas {
+    padding-top: 5em;
+}
+
+#section-conquistas h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-50vh div {
+    width: 90vw;
+}
+
+
+
+#section-habilidades {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+#section-educacao {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+#section-educacao h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#educacao-divs {
+
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#section-educacao a {
+    color: var(--laranja-claro); 
+
+}
+
+
+#section-contato {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+#div-contato {
+    padding-top: 5em;
+}
+
+h3 {
+    font-size: 40px;
+    color: var(--laranja-claro);
+}
+
+#footer {
+    width: 100vw;
+    background-color: var(--laranja-claro);
+    padding: 1.2em 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
